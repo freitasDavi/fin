@@ -1,10 +1,11 @@
+import { PageHeader } from '../../components/PageHeader';
 import { DefaultLayout } from '../../layouts/DefaultLayout';
 import { NextPageWithLayout } from '../_app';
 
 const Orcamentos: NextPageWithLayout = () => {
     return (
         <div>
-            Orçamentos
+            <PageHeader title='Orçamentos' />
         </div>
     )
 }

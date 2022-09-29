@@ -9,7 +9,9 @@ export function Navigation() {
         <NavigationContainer>
             <NavigationHeader>
                 <div>
-                    <Image src={logoImg} width={100} height={100} />
+                    <Link href="/" >
+                        <Image style={{ cursor: 'pointer' }} src={logoImg} width={100} height={100} />
+                    </Link>
                 </div>
                 <NavigationLinks>
                     <Link href="/almoxarifado">Almoxarifado</Link>
