@@ -1,14 +1,13 @@
-import type { NextPage } from 'next'
-import { Navigation } from '../components/Navigation';
 import { DefaultLayout } from '../layouts/DefaultLayout';
+import { GlobalMain } from '../styles/default';
 import { NextPageWithLayout } from './_app';
 
 
 const Home: NextPageWithLayout = () => {
   return (
-    <div>
-      Teste Maneiro
-    </div>
+    <GlobalMain>
+      Oie
+    </GlobalMain>
   )
 }
 

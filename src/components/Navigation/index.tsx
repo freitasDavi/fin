@@ -15,6 +15,7 @@ export function Navigation() {
                 </div>
                 <NavigationLinks>
                     <Link href="/almoxarifado">Almoxarifado</Link>
+                    <Link href="/produtos">Produtos</Link>
                     <Link href="/clientes">Clientes</Link>
                     <Link href="/orcamentos">Orçamentos</Link>
                 </NavigationLinks>

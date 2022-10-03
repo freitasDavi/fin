@@ -72,3 +72,7 @@ export const AlmoxarifadoTable = styled.table`
   }
 
 `
+
+export const Table = styled(AlmoxarifadoTable)`
+
+`;
